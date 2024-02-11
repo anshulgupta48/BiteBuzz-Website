@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+
+.overlay{
+  background-color: black;
+  
+}
+
+.soverlay{
+  background-color: #db2777;
+}
