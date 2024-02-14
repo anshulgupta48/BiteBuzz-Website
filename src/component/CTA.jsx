@@ -17,7 +17,7 @@ const Feature = () => {
   return (
     <div name="Contact" className='bg-black w-full h-full py-[50px] flex flex-col items-center justify-center' data-aos="fade-up">
     <h1 className='text-center text-white text-xl md:text-4xl  font-bold'>Ready to get more customers for your restaurant business?</h1>
-    <a href="tel:+91 8218265335" className='mt-4  '>
+    <a href="https://zcal.co/i/p_R2cOqM" className='mt-4  '>
 
 
  
