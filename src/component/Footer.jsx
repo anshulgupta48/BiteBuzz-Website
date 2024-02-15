@@ -22,9 +22,10 @@ const Footer = () => {
     AOS.init({duration:"900"})
 },[])
   return (
-    <div data-aos="fade-up bg-gradient from-pink-400 to-pink-300">
-    <div className="flex  text-black items-center mx-auto  justify-evenly text-sm p-5 max-w-6xl">
+    <div >
+    <div className="flex flex-col md:flex-row  text-black items-center mx-auto  justify-evenly text-sm p-5 max-w-6xl">
       <img src={logo} alt=""  className="w-[120px] mix-blend-multiply" />
+      <div className="flex gap-[100px]">
       <ul className="cursor-pointer">
         <li className="font-bold  ">Useful links</li>
        <Link to="Home"><li>Home</li></Link> 
@@ -41,7 +42,9 @@ const Footer = () => {
         <li>Newsletter</li>
         <li>Suggestion</li>
       </ul>
-      <div className="flex flex-col md:flex-row text-2xl gap-3 items-center justify-center  ">
+      </div>
+      
+      <div className="flex flex-row md:flex-row text-2xl gap-3 items-center justify-center  ">
         <BiLogoInstagramAlt className="hover:text-pink-600 duration-150" />
         <RiWhatsappFill className="hover:text-pink-600 duration-150" />
         <SiLinkedin className="hover:text-pink-600 duration-150" />

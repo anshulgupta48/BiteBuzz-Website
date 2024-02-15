@@ -23,7 +23,7 @@ const Approach = () => {
         <span className=" text-pink-600">▐</span> Our mission
       </div>
       <div className=" max-w-5xl flex flex-col md:flex-row gap-9  items-center  mx-auto">
-        <div className="p-4 w-full md:w-1/2 text-left" data-aos="fade-up">
+        <div className="p-4 w-full md:w-1/2 text-center md:text-left" data-aos="fade-up">
           <p>
             We understand that your restaurant is not just a place offering food
             and drinks; it is an experience, a destination, and it has a

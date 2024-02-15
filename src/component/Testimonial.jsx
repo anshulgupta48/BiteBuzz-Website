@@ -66,12 +66,12 @@ const Testimonial = () => {
       <div name="Testimonial" className="mt-10">
         <Slider {...settings}>
           {data.map(({ id, name, src, cmnt }) => (
-            <div key={id} className="testimonial-card h-full mb-[60px] shadow-sm shadow-black" data-aos="fade-up">
-              <div className="bg-pink-600 h-56 rounded-t-xl flex justify-center items-center">
+            <div key={id} className="testimonial-card  mb-[60px] min-h-[450px] max shadow-sm shadow-black" data-aos="fade-up">
+              <div className="bg-pink-600 h-[180px] rounded-t-xl flex justify-center items-center">
                 <img
                   src={img}
                   alt=""
-                  className="h-44 w-44 rounded-full object-cover  border-white   border-2  border-spacing-6"
+                  className="h-[120px] w-[120px] rounded-full object-cover  border-white   border-2  border-spacing-6"
                 />
               </div>
               <div className="bg-white rounded-b-xl text-black  p-4">

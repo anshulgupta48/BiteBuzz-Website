@@ -67,15 +67,15 @@ const FAQ = () => {
         <div
           key={id}
           data-aos="fade-up"
-          className="p-4 bg-white w-3/5 mx-auto rounded-lg shadow-sm shadow-black   mt-[15px]"
+          className="p-4 bg-white w-5/6 mx-auto rounded-lg shadow-sm shadow-black   mt-[15px]"
         >
-          <div className="py-2 ">
+          <div className="py-[4px] ">
             <button
               onClick={() => toggleAccordion(id)}
               className="flex justify-between w-full text-left md:text-center"
             >
               <span>{ques}</span>
-              <span>{acc[id] ? "-" : "+"}</span>
+              <span className="font-bold text-2xl">{acc[id] ? "-" : "+"}</span>
             </button>
             <div
               className={`grid overflow-hidden transition-all duration-300 ease-in text-slate-600 text-sm ${
