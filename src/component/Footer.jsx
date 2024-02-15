@@ -53,7 +53,7 @@ const Footer = () => {
 
     <div className="w-4/5 h-[2px] opacity-50 mb-2 mx-auto bg-black"></div>
     <div className="flex flex-col text-center justify-between w-4/5 mx-auto py-2  text-[12px]">
-        <p>Copyright © 2024  || All Rights Reserved</p>
+        <p>Copyright © 2024  || All Rights Reserved <a href="https://webexcep.in/">Webexcep</a> </p>
         
         <p>Design & Developed by Farhan Muzaffar</p>
     </div>
