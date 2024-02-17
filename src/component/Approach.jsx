@@ -12,7 +12,7 @@ import { useEffect } from 'react';
 
 const Approach = () => {
     useEffect(()=>{
-        AOS.init({duration:"900"})
+        AOS.init({duration:"500"})
     },[])
   return (
     <div className=" bg-white text-black" data-aos="fade-up" name="Mission">
@@ -22,8 +22,8 @@ const Approach = () => {
       >
         <span className=" text-pink-600">▐</span> Our mission
       </div>
-      <div className=" max-w-5xl flex flex-col md:flex-row gap-9  items-center  mx-auto">
-        <div className="p-4 w-full md:w-1/2 text-center md:text-left" data-aos="fade-up">
+      <div className=" max-w-5xl flex flex-col md:flex-row gap-9  items-center  mx-auto" data-aos="fade-up">
+        <div className="p-4 w-full md:w-1/2 text-center md:text-left" >
           <p>
             We understand that your restaurant is not just a place offering food
             and drinks; it is an experience, a destination, and it has a
@@ -47,12 +47,14 @@ const Approach = () => {
             search engines to get the maximum traffic aboard.
           </p>
         </div>
-
+        <div className="w-full md:w-1/2" >
         <img
           src={mission}
           alt=""
-          className="w-full md:w-1/2  mix-blend-multiply" data-aos="fade-up"
+          
         />
+        </div>
+        
       </div>
     </div>
   );

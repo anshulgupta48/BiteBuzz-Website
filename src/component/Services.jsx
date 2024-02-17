@@ -58,7 +58,7 @@ const Services = () => {
       <img
         src={hero}
         alt=""
-        className="hidden md:block transform scale-105 transition-transform duration-300 hover:scale-150 absolute inset-0"
+        className="hidden lg:block  transform scale-105 transition-transform duration-300 hover:scale-150 absolute inset-0"
       />
       <div className="hidden md:block soverlay absolute inset-0 opacity-80"></div>
 
@@ -68,7 +68,7 @@ const Services = () => {
           <span className="text-white">▐</span> Our services
         </div>
         {/* Cards grid */}
-        <div className="grid grid-cols-1  z-30 justify-center items-center gap-7 mt-[130px] md:grid-cols-3">
+        <div className="grid grid-cols-1  z-30 justify-center items-center gap-7 mt-[130px] lg:grid-cols-3 sm:grid-cols-2">
           {/* Mapping over cards */}
           {cards.map(({ id, img, des, name }) => (
             <div

@@ -58,7 +58,7 @@ const FAQ = () => {
   };
 
   return (
-    <div name="FAQ" className="w-full h-full  bg-gradient-to-r from-pink-400  to-pink-600 py-6">
+    <div name="FAQ" className="w-full h-full  bg-gradient-to-r from-pink-400  to-pink-600 py-10">
       <h1 className="text-white text-xl md:text-3xl font-bold  text-center" data-aos="fade-up">
       <span className="text-white mr-2">▐</span>
         Frequently asked questions

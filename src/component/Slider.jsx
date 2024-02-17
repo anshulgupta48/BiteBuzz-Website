@@ -37,9 +37,11 @@ const Hero = () => {
           your digital presence a magnet for diners!"
         </p>
 
-        <button className="text-white border border-white p-2 mt-5 border-dashed font-bold">
-          <a href="mailto:realbitebuzz@gmail.com"> Get started now</a>
-        </button>
+        <button class="relative text-white border  border-white p-2 mt-5  border-dashed font-bold transition hover:ease-in hover:bg-pink-600 overflow-hidden inline-block">
+  <a href="mailto:realbitebuzz@gmail.com" class="relative z-10">Get started now</a>
+  <div class="absolute top-0 right-0 h-full w-full  transition-all ease-linear"></div>
+</button>
+
       </div>
     </div>
   );

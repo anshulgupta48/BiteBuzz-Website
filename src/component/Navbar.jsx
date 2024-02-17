@@ -49,18 +49,18 @@ const Bar = () => {
   }, []);
   return (
    
-    <div className={`flex justify-between w-full items-center h-24 px-4   sticky bg-transparent text-black top-0 z-[100] bg-white lg:overflow-hidden ${
+    <div className={`flex justify-between w-full items-center h-[70px] px-5   sticky bg-transparent text-black top-0 z-[100] bg-white lg:overflow-hidden ${
       isScrolled ? 'shadow-md   shadow-gray-600' : ''
     }`}>
-      <div className=" ml-2 lg:w-[150px] w-[90px]"><img src={logo} alt=""  /></div>
+      <div className=" ml-2 lg:w-[120px] w-[90px] mix-blend-multiply"><img src={logo} alt="" className="  mix-blend-multiply"  /></div>
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer text-black hover:scale-105 duration-200 font-semibold hover:text-pink-600"
+            className="px-4  text-black  duration-200 font-semibold hover:text-pink-600"
           >
-            <Link to={link} smooth duration={500}>
+            <Link to={link} smooth duration={500} className="cursor-pointer">
               {link}
             </Link>
           </li>

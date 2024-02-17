@@ -40,6 +40,13 @@ const Testimonial = () => {
     slidesToScroll: 1,
     responsive: [
       {
+        breakpoint: 1200, // Change breakpoint to 1200px
+        settings: {
+          slidesToShow: 2, // Show two cards from 768px to 1200px
+          slidesToScroll: 1,
+        },
+      },
+      {
         breakpoint: 768, // Adjust this breakpoint according to your design
         settings: {
           slidesToShow: 1,
