@@ -19,7 +19,7 @@ const Hero = () => {
         src={her}
         alt=""
      
-        className="w-full h-screen object-cover transform scale-105 transition-transform duration-300 hover:scale-125"
+        className="w-full h-[70vh] md:h-screen object-cover transform scale-105 transition-transform duration-300 hover:scale-125"
       />
       <div className="absolute inset-0 overlay bg-black opacity-80"></div>
       <div className="flex flex-col gap-2 justify-center p-4 items-center absolute inset-0"  >
