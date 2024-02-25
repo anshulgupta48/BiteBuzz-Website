@@ -4,7 +4,7 @@ import Hero from "./component/Slider";
 import Testimonial from "./component/Testimonial";
 import Services from "./component/Services";
 import Feature from "./component/CTA";
-import Footer from "./component/Footer";
+import Footer from "./component/Footerd";
 import FAQ from "./component/FAQ";
 import Approach from "./component/Approach";
 

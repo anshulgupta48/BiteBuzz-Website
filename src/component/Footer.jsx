@@ -14,10 +14,10 @@ const Footer = () => {
   }, []);
   return (
     <div>
-      <div className="flex flex-col md:flex-row  text-black items-start mx-auto     justify-center md:gap-[220px] text-sm p-5 w-full">
+      <div className="flex flex-col md:flex-row  text-black items-start mx-auto  md:gap-[220px] text-sm p-5 w-full mt-[25px]">
         <div className="max-w-[300px]">
           <img src={logo} alt="" className="w-[120px] mix-blend-multiply" />
-          <p className="mt-3 text-[16px]">
+          <p className="mt-3 text-[13px]">
             Ignite your restaurant's success with our dynamic blend of strategic
             marketing, creative finesse, and digital mastery.
           </p>
@@ -33,42 +33,42 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-5 md:gap-[200px] mt-3">
+        <div className="flex      gap-[200px]  mt-[15px]  mx-auto   ">
           <ul className="cursor-pointer">
             <li className="font-bold text-[18px]">Useful links</li>
             <Link to="Home">
-              <li className="mt-2 text-[18px] hover:text-pink-600 duration-200">Home</li>
+              <li className="mt-2 text-[15px] hover:text-pink-600 duration-200">Home</li>
             </Link>
             <Link to="Services">
-              <li className="mt-2 text-[18px] hover:text-pink-600 duration-200">
+              <li className="mt-2 text-[15px] hover:text-pink-600 duration-200">
                 Services
               </li>
             </Link>
             <Link to="Testimonial">
-              <li className="mt-2 text-[18px] hover:text-pink-600 duration-200">
+              <li className="mt-2 text-[15px] hover:text-pink-600 duration-200">
                 Testimonial
               </li>
             </Link>
             <Link to="FAQ">
-              <li className="mt-2 text-[18px] hover:text-pink-600 duration-200">FAQ</li>
+              <li className="mt-2 text-[15px] hover:text-pink-600 duration-200">FAQ</li>
             </Link>
             <Link to="Contact">
-              <li className="mt-2 text-[18px] hover:text-pink-600 duration-200">Contact</li>
+              <li className="mt-2 text-[15px] hover:text-pink-600 duration-200">Contact</li>
             </Link>
           </ul>
 
           <ul>
           <li className="font-bold text-[18px]">Community</li>
-          <li className="mt-2 hover:text-pink-600 duration-200 cursor-pointer text-[18px] ">
+          <li className="mt-2 hover:text-pink-600 duration-200 cursor-pointer text-[15px] ">
             Help center
           </li>
-          <li className="mt-2 hover:text-pink-600 duration-200 cursor-pointer text-[18px]">
+          <li className="mt-2 hover:text-pink-600 duration-200 cursor-pointer text-[15px]">
             Blogs
           </li>
-          <li className="mt-2 hover:text-pink-600 duration-200 cursor-pointer text-[18px]">
+          <li className="mt-2 hover:text-pink-600 duration-200 cursor-pointer text-[15px]">
             Newsletter
           </li>
-          <li className="mt-2 hover:text-pink-600 duration-200 cursor-pointer text-[18px]">
+          <li className="mt-2 hover:text-pink-600 duration-200 cursor-pointer text-[15px]">
             Suggestion
           </li>
         </ul>

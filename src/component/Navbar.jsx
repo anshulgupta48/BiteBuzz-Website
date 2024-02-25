@@ -75,7 +75,7 @@ const Bar = () => {
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
       {nav && (
-        <ul className="flex flex-col justify-center   items-center h-screen w-1/2 absolute top-0 left-0 bg-gradient-to-b from-pink-600 to-pink-500 md:hidden">
+        <ul className="flex flex-col justify-center   items-center h-screen w-1/2 absolute top-0 right-0 transition ease-in-out bg-gradient-to-b from-pink-600 to-pink-500 md:hidden" style={{ transform: nav ? 'translateX(0)' : 'translateX(100%)', transition: 'transform 0.8s ease-in-out' }}>
           {links.map(({ id, link }) => (
             <li
               key={id}
