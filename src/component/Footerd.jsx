@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 const Footerd = () => {
   return (
     <div>
-    <div className="flex flex-col md:flex-row  p-5 h-[30vh]  md:justify-between     max-w-7xl mx-auto mt-[20px] py-2">
+    <div className="flex flex-col md:flex-row   h-[30vh]  md:justify-between     max-w-7xl mx-auto mt-[20px] p-5">
   {/* First section */}
   <div className="flex flex-col gap-3">
     <h1 className="  text-[22px]">About BuzzBites</h1>
@@ -71,15 +71,7 @@ const Footerd = () => {
     </ul>
   </div>
 </div>
-<div className="w-full h-[1px] opacity-50 mb-2 mx-auto bg-black"></div>
-      <div className="md:flex  text-center justify-between w-4/5 mx-auto py-1  text-[12px]">
-        <p>
-          Copyright © 2024 || All Rights Reserved
-          <a href="https://webexcep.in/"> BuzzBites</a>
-        </p>
 
-        <p>Design & Developed by <a href="https://webexcep.in/">Webexcep</a></p>
-      </div>
 
 </div>
 

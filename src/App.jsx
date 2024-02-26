@@ -7,6 +7,8 @@ import Feature from "./component/CTA";
 import Footer from "./component/Footerd";
 import FAQ from "./component/FAQ";
 import Approach from "./component/Approach";
+import Cpyright from "./component/Cpyright";
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <Testimonial />
       <Feature />
       <Footer />
+      <Cpyright />
     </div>
   );
 }
