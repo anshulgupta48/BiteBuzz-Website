@@ -66,6 +66,13 @@ const Bar = () => {
           </li>
         ))}
       </ul>
+
+      <button   className="bg-pink-600 text-white p-4 font-bold rounded-md hidden md:block">Let's talk 👋</button>
+   
+
+
+
+
       <div
         onClick={() => {
           setNav(!nav);

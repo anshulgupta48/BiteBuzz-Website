@@ -20,7 +20,6 @@ const Feature = () => {
       <button className='px-4 py-2 text-[15px] mt-3 bg-pink-600 text-white rounded-md flex  items-center gap-2 hover:bg-pink-400 duration-500'>
       <IoMdCall/>
         Get a free call now
-   
       </button>
     </a>
   </div>

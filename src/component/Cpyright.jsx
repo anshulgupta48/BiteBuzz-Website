@@ -9,9 +9,9 @@ const Cpyright = () => {
           Copyright © 2024 || All Rights Reserved
           <a href="https://webexcep.in/"> BuzzBites</a>
         </p>
-
         <p>Design & Developed by <a href="https://webexcep.in/">Webexcep</a></p>
       </div>
+      
     </div>
   )
 }
